@@ -1,0 +1,14 @@
+/* body style */
+body{
+    background-color: #F5F5F5;
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+}
+/* no link decoration */
+.link{
+text-decoration: none;
+}
+/* no list decoration */
+.list{
+list-style: none;
+}
