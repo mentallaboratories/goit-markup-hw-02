@@ -137,6 +137,9 @@ list-style: none;
 .footer-logo span {
     color: var(--accent-color)
 }
+.address{
+    font-style: normal;
+}
 .address-list-item {
     font-size: 14px;
     line-height: 1.7;
