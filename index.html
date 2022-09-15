@@ -7,34 +7,31 @@
     <title>Ефективні рішення</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0
-    ,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;
-    1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100;
-    1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--page header-->
-    <header> 
+    <header class="header"> 
         <!--top navigation-->
         <nav>
-            <a class="logo link" href="./index.html">WebStudio</a>
-            <ul class="list">
+            <a class="header-logo link" href="./index.html"><span>Web</span>Studio</a>
+            <ul class="nav-list list">
                 <li class="nav-item"><a class="nav-link link" href="">Студія</a></li>
                 <li class="nav-item"><a class="nav-link link" href="./portfolio.html">Портфоліо</a></li>
                 <li class="nav-item"><a class="nav-link link" href="">Контакти</a></li>
             </ul>
         </nav>
         <!--Contacts-->
-        <ul class="list">
-            <li><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <ul class="contacts list">
+            <li class="contacts-item"><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="contacts-item"><a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>        
     </header>
     <!--main-->
     <main>
         <!--section hero-->
-        <section>
+        <section class="hero">
             <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
             <button class="hero-button" type="button">Замовити послугу</button>
         </section>
@@ -42,21 +39,21 @@
         
         <!--list of features-->
         <section>
-            <h2 hidden>Наші особливості</h2>
-            <ul class="list">
-                <li>
+            <h2 class="visually-hidden">Наші особливості</h2>
+            <ul class="features-list list">
+                <li class="features-item">
                     <h3 class="features-title">УВАГА ДО ДЕТАЛЕЙ</h3>
                     <p>Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
                 </li>
-                <li>
+                <li class="features-item">
                     <h3 class="features-title">ПУНКТУАЛЬНІСТЬ</h3>
                     <p>Завдання організації, особливо рамки і місце навчання кадрів тягне у себе.</p>
                 </li>
-                <li>
+                <li class="features-item">
                     <h3 class="features-title">ПЛАНУВАННЯ</h3>
                     <p>Так само консультація з широким активом значною мірою зумовлює.</p>
                 </li>
-                <li>
+                <li class="features-item">
                     <h3 class="features-title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
                     <p>Значимість цих проблем настільки очевидна, що реалізація планових завдань.</p>
                 </li>
@@ -66,34 +63,34 @@
         <!--activity-->
         <section>
             <h2 class="activity-title">Чим ми займаємося</h2>
-            <ul class="list">
-                <li><img src="./images/whatwedo1.jpg" alt="what we do 1" width="370"></li>
-                <li><img src="./images/whatwedo2.jpg" alt="what we do 2" width="370"></li>
-                <li><img src="./images/whatwedo3.jpg" alt="what we do 3" width="370"></li>
+            <ul class="activity-list list">
+                <li class="activity-item"><img class="activity-image" src="./images/whatwedo1.jpg" alt="what we do 1" width="370"></li>
+                <li class="activity-item"><img class="activity-image" src="./images/whatwedo2.jpg" alt="what we do 2" width="370"></li>
+                <li class="activity-item"><img class="activity-image" src="./images/whatwedo3.jpg" alt="what we do 3" width="370"></li>
             </ul>
         </section>
         
         <!--Our team-->
         <section>
             <h2 class="team-title">Наша команда</h2>
-            <ul class="list">
-                <li>
-                    <img src="./images/teamcard1.jpg" alt="what we do 1" width="270">
+            <ul class="team-list list">
+                <li class="teammate-item">
+                    <img class="teammate-image" src="./images/teamcard1.jpg" alt="what we do 1" width="270">
                     <h3 class="teammate-name">Ігор Дем'яненко</h3>
                     <p class="teammate-position">Product Designer</p>
                 </li>
-                <li>
-                    <img src="./images/teamcard2.jpg" alt="what we do 2" width="270">
+                <li class="teammate-item">
+                    <img class="teammate-image" src="./images/teamcard2.jpg" alt="what we do 2" width="270">
                     <h3 class="teammate-name">Ольга Рєпіна</h3>
                     <p class="teammate-position">Frontend Developer</p>
                 </li>
-                <li>
-                    <img src="./images/teamcard3.jpg" alt="what we do 3" width="270">
+                <li class="teammate-item">
+                    <img class="teammate-image" src="./images/teamcard3.jpg" alt="what we do 3" width="270">
                     <h3 class="teammate-name">Микола Тарасов</h3>
                     <p class="teammate-position">Marketing</p>
                 </li>
-                <li>
-                    <img src="./images/teamcard4.jpg" alt="what we do 4" width="270">
+                <li class="teammate-item">
+                    <img class="teammate-image" src="./images/teamcard4.jpg" alt="what we do 4" width="270">
                     <h3 class="teammate-name">Михайло Єрмаков</h3>
                     <p class="teammate-position">UI Designer</p>
                 </li>
@@ -103,13 +100,12 @@
     </main>
     <!--footer-->
     <footer class="footer">
-        <a class="logo link" href="./index.html">WebStudio</a>
-        <address>
-            <ul class="list">
-                <li><a class="footer address link" href="https://goo.gl/maps/LFhcmBD6hXVz9CL57" target="_blank" rel="noopener noreferrer">695 Park Ave, New York, NY 10065,
-                United States</a></li>
-                <li><a class="footer contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="footer contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <a class="footer-logo link" href="./index.html"><span>Web</span>Studio</a>
+        <address class="adress">
+            <ul class="address-list list">
+                <li class="address-list-item"><a class="address-location link" href="https://goo.gl/maps/QkunexmJ6CB4zxnH8" target="_blank" rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a></li>
+                <li class="address-list-item"><a class="address-contacts link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="address-list-item"><a class="address-contacts link" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </address>
     </footer>
