@@ -157,6 +157,8 @@ list-style: none;
     letter-spacing: 0.03em;
     color: #212121;
     background-color: #F5F4FA;
+
+    cursor: pointer;
 }
 .portfolio-filter-button:hover,
 .portfolio-filter-button:focus {
