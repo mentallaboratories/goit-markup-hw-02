@@ -20,6 +20,7 @@ body{
 
 }
 
+
 /* no link decoration */
 .link{
 text-decoration: none;
@@ -29,9 +30,7 @@ text-decoration: none;
 list-style: none;
 }
 
-.current .link {
-    color:var(--accent-color);
-}
+
 
 /* this class is for hiding */
 .visually-hidden {
@@ -63,6 +62,9 @@ list-style: none;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--link-text-color);
+}
+.current {
+    color: var(--accent-color);
 }
 .nav-link:hover,
 .nav-link:focus{
